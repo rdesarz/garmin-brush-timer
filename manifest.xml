@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application
+        entry="BrushTimerApp"
+        id="b48a3ac4699441ba9a0d9acd20a40e35"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="5.2.0"
+        name="@Strings.AppName"
+        type="watch-app">
+        <iq:products>
+            <iq:product id="fr255"/>
+            <iq:product id="fr255m"/>
+        </iq:products>
+        <iq:permissions/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
+
